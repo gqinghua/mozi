@@ -1,0 +1,91 @@
+server:
+  port: 15012
+moke:
+  nacos:
+    server-addr: 127.0.0.1:8848
+
+#spring:
+#  application:
+#    name: spring-cloud-gateway-nacos
+#  cloud:
+#    gateway: # config the routes for gateway
+#      routes:
+#        - id: service-provider          # 将 /provider1/ 开头的请求转发到provider1
+#          uri: lb://service-provider
+#          predicates:
+#            - Path=/provider1/**
+#          filters:
+#            - StripPrefix=1               # 表明前缀 /provider1需要截取掉nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+
+spring:
+  application:
+    name: pring-cloud-gateway-nacos
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:18769
+  cloud:
+    gateway: # config the routes for gateway
+      routes:
+        - id: service-provider          # 将 /provider1/ 开头的请求转发到provider1
+          uri: lb://service-provider
+          predicates:
+            - Path=/provider1/**
+          filters:
+            - StripPrefix=1               # 表明前缀 /provider1需要截取掉nacos:
+        - id: service-consumer-skywalking       # 将 /provider1/ 开头的请求转发到provider1
+          uri: lb://service-consumer-skywalking
+          predicates:
+            - Path=/api-consumer/{segment}
+#      垄断配置
+          filters:
+            - SetPath=/{segment}
+            - name: Hystrix
+              args:
+                name: service-provider-fallback
+                fallbackUri: forward:/service-provider-error
+            - name: Retry
+              args:
+                retries: 3
+                statuses: BAD_GATEWAY,BAD_REQUEST
+      default-filters:
+        - name: Hystrix
+          args:
+            name: fallbackcmd
+            fallbackUri: forward:/default-error
+
+
+
+
+
+    nacos:
+      config:
+        server-addr: ${moke.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${moke.nacos.server-addr}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+
+
+# hystrix 信号量隔离，3秒后自动超时
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 3000
+  shareSecurityContext: true

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="netty-dmeo" />
+        <module name="mozi-oss" />
+        <module name="mozi-gateway" />
+        <module name="springboot-netty-Socket" />
+        <module name="itstack-demo-netty-3-01" />
+        <module name="vertx-demo" />
+        <module name="netty-push-server (1) (com.sundy)" />
+        <module name="netty-push-server (1) (com.personal.cable)" />
+        <module name="mozi-common-sequence" />
+        <module name="netty-push-client" />
+        <module name="mozi-uaa" />
+        <module name="sentinel-dashboard" />
+        <module name="netty-push-share" />
+        <module name="mozi-admin" />
+        <module name="user-center" />
+        <module name="nacos-service-provider" />
+        <module name="nacos-service-provider-02" />
+        <module name="mozi-netty" />
+        <module name="mozi-vertx-demo" />
+        <module name="mozi-common" />
+        <module name="netty-push-server" />
+        <module name="spring-boot-demo-websocket" />
+        <module name="group_chat" />
+        <module name="Sentinel-demo" />
+        <module name="netty-push-server (2) (com.sundy)" />
+        <module name="netty-websocket" />
+        <module name="nacos-service-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account" target="1.8" />
+      <module name="account-service" target="1.8" />
+      <module name="account-xa" target="1.8" />
+      <module name="base-framework-mysql-support" target="1.5" />
+      <module name="business-service" target="1.8" />
+      <module name="business-xa" target="1.8" />
+      <module name="bussiness" target="1.8" />
+      <module name="dubbo-saga-sample" target="1.8" />
+      <module name="dubbo-tcc-sample" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="hsf-tcc-sample" target="1.5" />
+      <module name="local-saga-sample" target="1.8" />
+      <module name="local-tcc-sample" target="1.8" />
+      <module name="mozi-common-spring-boot-starter" target="1.8" />
+      <module name="mozi-dashboard" target="1.8" />
+      <module name="mozi-log-spring-boot-starter" target="1.8" />
+      <module name="mozi-redisson-spring-boot-starter" target="1.8" />
+      <module name="mozi-seata" target="1.8" />
+      <module name="multiple-datasource" target="8" />
+      <module name="multiple-datasource-mybatis-plus" target="8" />
+      <module name="netty-websocket-push" target="1.8" />
+      <module name="nutzboot-dubbo-fescar-account" target="1.8" />
+      <module name="nutzboot-dubbo-fescar-common" target="1.8" />
+      <module name="nutzboot-dubbo-fescar-order" target="1.8" />
+      <module name="nutzboot-dubbo-fescar-storage" target="1.8" />
+      <module name="nutzboot-dubbo-fescar-web" target="1.8" />
+      <module name="nutzboot-dubbo-seata" target="1.8" />
+      <module name="order" target="1.8" />
+      <module name="order-service" target="1.8" />
+      <module name="order-xa" target="1.8" />
+      <module name="samples-account" target="1.8" />
+      <module name="samples-account-service" target="1.8" />
+      <module name="samples-business" target="1.8" />
+      <module name="samples-business-service" target="1.8" />
+      <module name="samples-common" target="1.8" />
+      <module name="samples-common-service" target="1.8" />
+      <module name="samples-order" target="1.8" />
+      <module name="samples-order-service" target="1.8" />
+      <module name="samples-storage" target="1.8" />
+      <module name="samples-storage-service" target="1.8" />
+      <module name="sbm-account-service" target="1.8" />
+      <module name="sbm-business-service" target="1.8" />
+      <module name="sbm-common-service" target="1.8" />
+      <module name="sbm-order-service" target="1.8" />
+      <module name="sbm-storage-service" target="1.8" />
+      <module name="sca-common" target="1.8" />
+      <module name="sca-customer" target="1.8" />
+      <module name="sca-provider" target="1.8" />
+      <module name="seata-samples" target="1.8" />
+      <module name="seata-samples-api" target="1.8" />
+      <module name="seata-samples-dubbo" target="1.8" />
+      <module name="seata-samples-HA" target="1.8" />
+      <module name="seata-samples-nacos" target="1.8" />
+      <module name="seata-samples-saga" target="1.8" />
+      <module name="seata-samples-springboot" target="1.8" />
+      <module name="seata-samples-tcc" target="1.8" />
+      <module name="seata-spring-boot-starter-samples" target="1.8" />
+      <module name="seata-xa" target="1.8" />
+      <module name="shardingsphere-seata-business" target="1.8" />
+      <module name="shardingsphere-seata-order" target="1.8" />
+      <module name="sofarpc-saga-sample" target="1.7" />
+      <module name="sofarpc-tcc-sample" target="1.7" />
+      <module name="spring-cloud-alibaba-samples" target="1.8" />
+      <module name="springboot-dubbo-seata" target="1.8" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-shardingsphere-seata" target="1.8" />
+      <module name="springboot-tcc-sample" target="1.6" />
+      <module name="springcloud-eureka-seata" target="1.8" />
+      <module name="springcloud-jpa-seata" target="1.8" />
+      <module name="springcloud-nacos-seata" target="1.5" />
+      <module name="storage" target="1.8" />
+      <module name="storage-service" target="1.8" />
+      <module name="storage-xa" target="1.8" />
+      <module name="transfer-tcc-sample" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Sentinel-demo" options="-parameters" />
+      <module name="group_chat" options="-parameters" />
+      <module name="itstack-demo-netty-3-01" options="-parameters" />
+      <module name="mozi-admin" options="" />
+      <module name="mozi-common-sequence" options="-parameters" />
+      <module name="mozi-gateway" options="-parameters" />
+      <module name="mozi-oss" options="-parameters" />
+      <module name="mozi-redisson-spring-boot-starter" options="-parameters" />
+      <module name="mozi-vertx-demo" options="-parameters" />
+      <module name="nacos-service-consumer" options="-parameters" />
+      <module name="nacos-service-provider" options="-parameters" />
+      <module name="nacos-service-provider-02" options="-parameters" />
+      <module name="netty-push-client" options="-parameters -parameters" />
+      <module name="netty-push-server (1) (com.sundy)" options="-parameters -parameters" />
+      <module name="netty-push-server (2) (com.sundy)" options="-parameters -parameters" />
+      <module name="netty-push-share" options="-parameters -parameters" />
+      <module name="samples-account-service" options="-parameters" />
+      <module name="samples-business-service" options="-parameters" />
+      <module name="samples-common-service" options="-parameters" />
+      <module name="samples-order-service" options="-parameters" />
+      <module name="samples-storage-service" options="-parameters" />
+      <module name="springboot-netty-Socket" options="-parameters" />
+      <module name="user-center" options="-parameters" />
+      <module name="vertx-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

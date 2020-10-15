@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mozi-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-business/itstack-demo-netty-3-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-business/itstack-demo-netty-3-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-business/user-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-business/user-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-common/mozi-common-sequence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-common/mozi-common-sequence/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/Sentinel-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/Sentinel-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/group_chat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/group_chat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/mozi-netty/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/mozi-netty/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/mozi-oss/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/mozi-oss/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/mozi-vertx-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/mozi-vertx-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/nacos-service-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/nacos-service-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/nacos-service-provider-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/nacos-service-provider-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/nacos-service-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/nacos-service-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/spring-boot-demo-websocket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/spring-boot-demo-websocket/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/springboot-netty-Socket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/springboot-netty-Socket/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/springboot-netty-protobuf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/springboot-netty-protobuf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/vertx-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/vertx-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/websocketWithNetty/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-demo/websocketWithNetty/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-uaa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mozi-uaa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-demo/netty-push-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-demo/netty-push-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-demo/netty-push-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-demo/netty-push-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-demo/netty-push-share/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-dashboard/src/main/webapp" charset="UTF-8" />
+  </component>
+</project>

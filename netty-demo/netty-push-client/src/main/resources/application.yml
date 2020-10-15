@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
+  jackson:
+    default-property-inclusion: non_null
+  application:
+    name: netty-push-client
+
+logging:
+  level:
+    ROOT: info
+    com.sundy: debug
+    org.springframework: info
+
+netty:
+  clientId: crawler_1
+  server:
+    host: localhost
+    port: 9090

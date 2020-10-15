@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c87e669-bf3e-43ff-ab67-fd90bae85071" name="Default Changelist" comment="2020/9/8 8:36 guoqinghua">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mozi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mozi-demo/spring-boot-demo-websocket/src/main/java/com/xkcoding/websocket/Netty/MyChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mozi-demo/spring-boot-demo-websocket/src/main/java/com/xkcoding/websocket/Netty/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mozi-demo/spring-boot-demo-websocket/src/main/java/com/xkcoding/websocket/Netty/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/40e82986-3ab9-41d8-87c9-7551e28003f3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/40e82986-3ab9-41d8-87c9-7551e28003f3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-admin/mozi-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-business/mozi-business.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-business/user-center/user-center.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-common/mozi-common-sequence/target/classes/com/mozi/common/sequence/range/impl/redis/RedisSeqRangeMgr.class" beforeDir="false" afterPath="$PROJECT_DIR$/mozi-common/mozi-common-sequence/target/classes/com/mozi/common/sequence/range/impl/redis/RedisSeqRangeMgr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-common/mozi-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/Sentinel-demo/Sentinel-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/Sentinel-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mozi-demo/Sentinel-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/Sentinel-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mozi-demo/Sentinel-demo/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/mozi-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/mozi-netty/mozi-netty.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/mozi-netty/src/main/java/com/mozi/netty/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/mozi-demo/mozi-netty/src/main/java/com/mozi/netty/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/mozi-oss/mozi-oss.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/nacos-service-consumer/src/main/java/com/mozi/NacosConsumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mozi-demo/nacos-service-consumer/src/main/java/com/mozi/NacosConsumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mozi-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/websocketWithNetty/netty-websocket.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/websocketWithNetty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mozi-demo/websocketWithNetty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/websocketWithNetty/src/main/java/org/wisdom/netty/global/ChatGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/mozi-demo/websocketWithNetty/src/main/java/org/wisdom/netty/global/ChatGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/websocketWithNetty/src/main/java/org/wisdom/netty/websocket/NioWebSocketChannelInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mozi-demo/websocketWithNetty/src/main/java/org/wisdom/netty/websocket/NioWebSocketChannelInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-demo/websocketWithNetty/src/main/java/org/wisdom/netty/websocket/NioWebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mozi-demo/websocketWithNetty/src/main/java/org/wisdom/netty/websocket/NioWebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/GatewayApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/config/MySwaggerResourceProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/controller/HystrixController1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/controller/HystrixController2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/controller/HystrixController3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/controller/SwaggerResourceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/fallback/FallbackController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/filter/SecurityConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/filter/moziRequestGlobalFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/filter/moziResponseGlobalFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mozi-gateway/target/classes/com/mozi/gateway/handler/ErrorHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/sentinel-dashboard.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mallcloud@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mallcloud@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mallcloud@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mallcloud: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\projects\mozi\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eGgUlXt3aBCmpHYIgIV6mAGN6U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/software02/apache-skywalking-apm-6.5.0/apache-skywalking-apm-bin" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15384616" />
+    <property name="project.structure.side.proportion" value="0.24364896" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\mozi\mozi-demo\mozi-netty\src\main\java\com\mozi\netty\server\codec" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.wisdom.netty.common" />
+      <recent name="org.wisdom.netty.task" />
+      <recent name="com.personal.cable" />
+      <recent name="com.mozi.NacosConsumer.config" />
+      <recent name="com.mozi.NacosConsumer.Entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\mozi\mozi-demo\spring-boot-demo-websocket\src\main\java\com\xkcoding\websocket\Netty" />
+      <recent name="E:\projects\mozi\mozi-demo\spring-boot-demo-websocket\src\main\resources\static" />
+      <recent name="E:\projects\mozi\mozi-demo\websocketWithNetty\src\main\resources" />
+      <recent name="E:\projects\mozi\mozi-demo\websocketWithNetty\src\main\java\org\wisdom\netty\service" />
+      <recent name="E:\projects\mozi\mozi-demo\websocketWithNetty\src\main\resources\static\js\ech" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 80 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SentinelFlowExampleApplication">
+    <configuration name="AppClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.personal.cable.client.AppClient" />
+      <module name="netty-push-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.personal.cable.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.personal.cable.Main" />
+      <module name="netty-push-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.personal.cable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyClient" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mozi.netty.client.NettyClient" />
+      <module name="mozi-netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mozi.netty.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wisdom.netty.main" />
+      <module name="netty-websocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wisdom.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mozi-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mozii.admin.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-netty-Socket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.oujiong.exchange.client.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itstack-demo-netty-3-01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.itstack.demo.ark.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="netty-dmeo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.netty.server.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mozi-vertx-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mozi.vertx.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mozi.NacosConsumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinel-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.csp.sentinel.dashboard.DashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mozi-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mozii.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupChatStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="group_chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.marchsoft.groupchat.GroupChatStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyPushClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="netty-push-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sundy.nettypush.NettyPushClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyPushServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="netty-push-server (1) (com.sundy)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sundy.nettypush.NettyPushServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-service-provider-02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mozii.NacosProvider.Provider02Application" />
+      <option name="VM_PARAMETERS" value="-Dskywalking.agent.service_name=nacos-provider02-test -Dskywalking.collector.backend_service=123.57.128.134:11800 -javaagent:E:/software02/apache-skywalking-apm-6.5.0/apache-skywalking-apm-bin/agent/skywalking-agent.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="nacos-service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mozii.NacosProvider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mozii.NacosProvider.ProviderApplication" />
+      <option name="VM_PARAMETERS" value="-DPORT=18085 -Dskywalking.agent.service_name=nacos-provider-test -Dskywalking.collector.backend_service=127.0.0.1:11800 -javaagent:E:/software02/apache-skywalking-apm-6.5.0/apache-skywalking-apm-bin/agent/skywalking-agent.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelFlowExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Sentinel-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mozii.sentinel.SentinelFlowExampleApplication" />
+      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.dashboard.server=localhost:18090 -Dproject.name=sentinel-dashboard" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootDemoWebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-demo-websocket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xkcoding.websocket.SpringBootDemoWebsocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VertxdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vertx-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.javac.vertx.vertxdemo.VertxdemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springwebsocket" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="netty-websocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wisdom.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wisdom.netty.springwebsocket" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.AppClient" />
+      <item itemvalue="Spring Boot.NettyPushClientApplication" />
+      <item itemvalue="Spring Boot.Provider02Application" />
+      <item itemvalue="Spring Boot.SentinelFlowExampleApplication" />
+      <item itemvalue="Spring Boot.DashboardApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.VertxdemoApplication" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.Application (3)" />
+      <item itemvalue="Spring Boot.SpringBootDemoWebsocketApplication" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.GroupChatStart" />
+      <item itemvalue="Spring Boot.NettyPushServerApplication" />
+      <item itemvalue="Spring Boot.springwebsocket" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppClient" />
+        <item itemvalue="Spring Boot.springwebsocket" />
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.27185792" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+        <serviceView>
+          <option name="contentProportion" value="0.26980874" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+          <option name="isSelected" value="true" />
+          <option name="viewType" value="contributor" />
+          <option name="roots">
+            <list>
+              <ServiceState>
+                <option name="contributor" value="com.intellij.execution.dashboard.RunDashboardServiceViewContributor" />
+              </ServiceState>
+            </list>
+          </option>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c87e669-bf3e-43ff-ab67-fd90bae85071" name="Default Changelist" comment="" />
+      <created>1593953361793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593953361793</updated>
+      <workItem from="1593953363183" duration="3833000" />
+      <workItem from="1593957833898" duration="500000" />
+      <workItem from="1593958341299" duration="1884000" />
+      <workItem from="1593960916673" duration="1349000" />
+      <workItem from="1594000606600" duration="176000" />
+      <workItem from="1594014844343" duration="529000" />
+      <workItem from="1594015937228" duration="340000" />
+      <workItem from="1594021600767" duration="1137000" />
+      <workItem from="1594024738395" duration="1796000" />
+      <workItem from="1594028791306" duration="32000" />
+      <workItem from="1594029093168" duration="33000" />
+      <workItem from="1594029314616" duration="812000" />
+      <workItem from="1594030318801" duration="1024000" />
+      <workItem from="1594031522730" duration="98000" />
+      <workItem from="1594032613139" duration="99000" />
+      <workItem from="1594033336306" duration="6000" />
+      <workItem from="1594046527113" duration="609000" />
+      <workItem from="1594082463727" duration="628000" />
+      <workItem from="1594088327439" duration="102000" />
+      <workItem from="1594088998956" duration="4000" />
+      <workItem from="1594100642702" duration="1232000" />
+      <workItem from="1594106196078" duration="246000" />
+      <workItem from="1594110424883" duration="41000" />
+      <workItem from="1594111574781" duration="815000" />
+      <workItem from="1594117099237" duration="12000" />
+      <workItem from="1594264144437" duration="2081000" />
+      <workItem from="1594275195007" duration="86000" />
+      <workItem from="1594275313820" duration="449000" />
+      <workItem from="1594275807022" duration="1349000" />
+      <workItem from="1594277595607" duration="8031000" />
+      <workItem from="1594289873736" duration="3881000" />
+      <workItem from="1594293877703" duration="344000" />
+      <workItem from="1594300809073" duration="985000" />
+      <workItem from="1594304638937" duration="1012000" />
+      <workItem from="1594306151098" duration="4000" />
+      <workItem from="1594308056512" duration="1775000" />
+      <workItem from="1594309974720" duration="1521000" />
+      <workItem from="1594342726021" duration="5910000" />
+      <workItem from="1594351203490" duration="1226000" />
+      <workItem from="1594359607433" duration="2437000" />
+      <workItem from="1594367639030" duration="1252000" />
+      <workItem from="1594371957971" duration="415000" />
+      <workItem from="1594388578047" duration="1131000" />
+      <workItem from="1594456890311" duration="1506000" />
+      <workItem from="1594693634993" duration="639000" />
+      <workItem from="1594773563764" duration="346000" />
+      <workItem from="1594869614208" duration="490000" />
+      <workItem from="1594883227925" duration="4861000" />
+      <workItem from="1594893056925" duration="8000" />
+      <workItem from="1595055959189" duration="232000" />
+      <workItem from="1595064198478" duration="250000" />
+      <workItem from="1595208342832" duration="1812000" />
+      <workItem from="1595227143902" duration="22000" />
+      <workItem from="1595229249488" duration="642000" />
+      <workItem from="1595232433092" duration="7000" />
+      <workItem from="1595321707448" duration="683000" />
+      <workItem from="1595380840957" duration="1374000" />
+      <workItem from="1595387561016" duration="2654000" />
+      <workItem from="1595407725889" duration="3127000" />
+      <workItem from="1595426297702" duration="15000" />
+      <workItem from="1595490607974" duration="89000" />
+      <workItem from="1595579715347" duration="1312000" />
+      <workItem from="1595592707162" duration="1784000" />
+      <workItem from="1595644189473" duration="876000" />
+      <workItem from="1595660924487" duration="1619000" />
+      <workItem from="1595818689120" duration="2000" />
+      <workItem from="1596010063148" duration="1367000" />
+      <workItem from="1596017009266" duration="36000" />
+      <workItem from="1596077668459" duration="2307000" />
+      <workItem from="1596095026166" duration="2344000" />
+      <workItem from="1596099933170" duration="126000" />
+      <workItem from="1596100064460" duration="1754000" />
+      <workItem from="1596102377678" duration="982000" />
+      <workItem from="1596103897832" duration="265000" />
+      <workItem from="1596105704139" duration="146000" />
+      <workItem from="1596106087629" duration="1184000" />
+      <workItem from="1596107323822" duration="291000" />
+      <workItem from="1596108540870" duration="2325000" />
+      <workItem from="1596111336371" duration="959000" />
+      <workItem from="1596112632055" duration="702000" />
+      <workItem from="1596155269509" duration="1791000" />
+      <workItem from="1596164139732" duration="883000" />
+      <workItem from="1596165062688" duration="689000" />
+      <workItem from="1596176927917" duration="153000" />
+      <workItem from="1596177207176" duration="77000" />
+      <workItem from="1596198860293" duration="898000" />
+      <workItem from="1596205238311" duration="157000" />
+      <workItem from="1596246767279" duration="978000" />
+      <workItem from="1596247945407" duration="2364000" />
+      <workItem from="1596264304673" duration="16536000" />
+      <workItem from="1596375817209" duration="1806000" />
+      <workItem from="1596379794136" duration="53000" />
+      <workItem from="1596381278606" duration="2071000" />
+      <workItem from="1596415435728" duration="1361000" />
+      <workItem from="1596425593812" duration="2414000" />
+      <workItem from="1596441749468" duration="1504000" />
+      <workItem from="1596447521240" duration="5866000" />
+      <workItem from="1596501152718" duration="1994000" />
+      <workItem from="1596508916380" duration="3357000" />
+      <workItem from="1596524721098" duration="239000" />
+      <workItem from="1596960652388" duration="826000" />
+      <workItem from="1596967678297" duration="264000" />
+      <workItem from="1596967944540" duration="1271000" />
+      <workItem from="1596969220250" duration="1622000" />
+      <workItem from="1596971743802" duration="1530000" />
+      <workItem from="1596983139773" duration="7000" />
+      <workItem from="1597020735520" duration="1428000" />
+      <workItem from="1597031178704" duration="2864000" />
+      <workItem from="1597052417446" duration="20000" />
+      <workItem from="1597052550087" duration="21000" />
+      <workItem from="1597056991227" duration="260000" />
+      <workItem from="1597062754141" duration="139000" />
+      <workItem from="1597063218249" duration="891000" />
+      <workItem from="1597118019375" duration="159000" />
+      <workItem from="1597127494102" duration="16000" />
+      <workItem from="1598261997311" duration="16000" />
+      <workItem from="1598410953447" duration="727000" />
+      <workItem from="1598411691124" duration="3133000" />
+      <workItem from="1598423083818" duration="1963000" />
+      <workItem from="1598495138348" duration="218000" />
+      <workItem from="1598495580010" duration="257000" />
+      <workItem from="1598585144538" duration="8000" />
+      <workItem from="1599449892174" duration="2819000" />
+      <workItem from="1599461402836" duration="12605000" />
+      <workItem from="1599536258035" duration="2950000" />
+      <workItem from="1599549522282" duration="7635000" />
+      <workItem from="1599564782121" duration="5159000" />
+      <workItem from="1599578275375" duration="365000" />
+      <workItem from="1599611909380" duration="18022000" />
+      <workItem from="1599642845913" duration="2994000" />
+      <workItem from="1599657789950" duration="2610000" />
+      <workItem from="1599665116862" duration="353000" />
+      <workItem from="1599703799133" duration="1636000" />
+      <workItem from="1599722742942" duration="4457000" />
+      <workItem from="1599836422235" duration="8000" />
+      <workItem from="1600272746491" duration="393000" />
+      <workItem from="1600445243655" duration="66000" />
+      <workItem from="1600481599822" duration="952000" />
+      <workItem from="1600940376338" duration="595000" />
+      <workItem from="1600941045873" duration="18000" />
+      <workItem from="1600945691670" duration="281000" />
+      <workItem from="1600950180536" duration="814000" />
+      <workItem from="1602209691868" duration="184000" />
+      <workItem from="1602466200963" duration="3988000" />
+      <workItem from="1602491387130" duration="5696000" />
+      <workItem from="1602746800153" duration="142000" />
+    </task>
+    <task id="LOCAL-00001" summary="2020/9/8 8:36 guoqinghua">
+      <created>1599525693836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599525693836</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2020/9/8 8:36 guoqinghua">
+      <created>1599525752091</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599525752091</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/mozi-demo/groupchat" />
+      <path value="$PROJECT_DIR$/mozi-demo/netty-push-server" />
+      <path value="$PROJECT_DIR$/mozi-demo/rusts_learning" />
+      <path value="$PROJECT_DIR$/mozi-demo/websocketWithNetty" />
+    </ignored-roots>
+    <MESSAGE value="2020/9/8 8:36 guoqinghua" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/9/8 8:36 guoqinghua" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#New_CloudFoundry_Connection" timestamp="1594349907014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#New_CloudFoundry_Connection/0.0.1536.824@0.0.1536.824" timestamp="1594349907014" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1599644137772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1599644137772" />
+    <state x="245" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602507449711">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="245" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602507449711" />
+    <state x="501" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599551646725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="501" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599551646725" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1599621103368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599621103368" />
+    <state x="292" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599619999669">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="292" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1599619999669" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594371988607">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594371988607" />
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1602746864622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602746864622" />
+    <state x="147" y="64" key="DiffContextDialog" timestamp="1599525807209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1599525807209" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602490579509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602490579509" />
+    <state width="1068" height="402" key="GridCell.Tab.0.bottom" timestamp="1602571539226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602571539226" />
+    <state width="1068" height="402" key="GridCell.Tab.0.center" timestamp="1602571539226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602571539226" />
+    <state width="1068" height="402" key="GridCell.Tab.0.left" timestamp="1602571539226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602571539226" />
+    <state width="1068" height="402" key="GridCell.Tab.0.right" timestamp="1602571539226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602571539226" />
+    <state width="1068" height="402" key="GridCell.Tab.1.bottom" timestamp="1602571539227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602571539227" />
+    <state width="1068" height="402" key="GridCell.Tab.1.center" timestamp="1602571539227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602571539227" />
+    <state width="1068" height="402" key="GridCell.Tab.1.left" timestamp="1602571539226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602571539226" />
+    <state width="1068" height="402" key="GridCell.Tab.1.right" timestamp="1602571539227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602571539227" />
+    <state width="1068" height="402" key="GridCell.Tab.2.bottom" timestamp="1602571539227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602571539227" />
+    <state width="1068" height="402" key="GridCell.Tab.2.center" timestamp="1602571539227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1602571539227" />
+    <state width="1068" height="402" key="GridCell.Tab.2.left" timestamp="1602571539227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1602571539227" />
+    <state width="1068" height="402" key="GridCell.Tab.2.right" timestamp="1602571539227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1068" height="402" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1602571539227" />
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1594289922994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1594289922994" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1594264948321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1594264948321" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1602746894889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602746894889" />
+    <state x="418" y="133" key="Vcs.Push.Dialog.v2" timestamp="1599525792494">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="133" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599525792494" />
+    <state x="301" y="4" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599727261205">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="301" y="4" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1599727261205" />
+    <state x="310" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596502767570">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="310" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1596502767570" />
+    <state x="450" y="143" width="1039" height="600" key="find.popup" timestamp="1599729211459">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="450" y="143" width="1039" height="600" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599729211459" />
+    <state x="178" y="0" key="new project wizard" timestamp="1599704120532">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599704120532" />
+    <state x="470" y="39" key="refactoring.ChangeSignatureDialog" timestamp="1596112084974">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="39" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1596112084974" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1599551445935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1599551445935" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599623122085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599623122085" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mozi-gateway/src/main/java/com/mozii/gateway/controller/HystrixController2.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mozi-gateway/src/main/java/com/mozii/gateway/filter/moziResponseGlobalFilter.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
